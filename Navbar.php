@@ -24,7 +24,7 @@
     <script src="../PracticaGrupal/PerfilesYucatecos/asset/js/materialize.min.js"></script>
 </head>
 <body>
-<nav>
+<!--<nav class="navbar navbar-expand-lg navbar-dark">
     <div class="nav-wrapper" style="background-color:#000000; color:#747474;">
       <a href="#" class="brand-logo">The modernist</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -36,7 +36,48 @@
         <li><a href="null.html">GALLERY</a></li>
       </ul>
     </div>
-  </nav>
+  </nav>-->
+
+  <style>
+nav 
+{
+  background: #290000;
+  border-top: 4px solid #76C38F;
+}
+  </style>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+          <img src="" alt="" />
+      </a>
+          <button class="navbar-toggler", data-toggle="collapse" data-target#menu"">
+              <span class="navbar-toogler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">StyleDemo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Full widht</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Dropdown</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Gallery</a>
+                </li>
+            </ul>
+          </div>
+    </div>
+</nav>
 
 </body>
 </html>
