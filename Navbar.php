@@ -10,18 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--CSS-->
-    <link href="../PracticaGrupal/PerfilesYucatecos/asset/css/animations.css" rel="stylesheet" />
-    <link href="../PracticaGrupal/PerfilesYucatecos/asset/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../PracticaGrupal/PerfilesYucatecos/asset/css/icon.css" rel="stylesheet" />
-    <link href="../PracticaGrupal/PerfilesYucatecos/asset/css/materialize.css" rel="stylesheet" />
-    <link href="../PracticaGrupal/PerfilesYucatecos/asset/css/materialize.min.css" rel="stylesheet" />
+    <link href="../PerfilesYucatecos/asset/css/animations.css" rel="stylesheet" />
+    <link href="../PerfilesYucatecos/asset/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../PerfilesYucatecos/asset/css/icon.css" rel="stylesheet" />
+    <link href="../PerfilesYucatecos/asset/css/materialize.css" rel="stylesheet" />
+    <link href="../PerfilesYucatecos/asset/css/materialize.min.css" rel="stylesheet" />
 
     <!--JavaScripts-->
-    <script src="../PracticaGrupal/PerfilesYucatecos/asset/js/jquery.mask.js"></script>
-    <script src="../PracticaGrupal/PerfilesYucatecos/asset/js/jquery.mask.min.js"></script>
-    <script src="../PracticaGrupal/PerfilesYucatecos/asset/js/jquery-2.1.4.min.js"></script>
-    <script src="../PracticaGrupal/PerfilesYucatecos/asset/js/materialize.js"></script>
-    <script src="../PracticaGrupal/PerfilesYucatecos/asset/js/materialize.min.js"></script>
+    <script src="../PerfilesYucatecos/asset/js/jquery.mask.js"></script>
+    <script src="../PerfilesYucatecos/asset/js/jquery.mask.min.js"></script>
+    <script src="../PerfilesYucatecos/asset/js/jquery-2.1.4.min.js"></script>
+    <script src="../PerfilesYucatecos/asset/js/materialize.js"></script>
+    <script src="../PerfilesYucatecos/asset/js/materialize.min.js"></script>
 </head>
 <body>
 <!--<nav class="navbar navbar-expand-lg navbar-dark">
@@ -43,6 +43,81 @@ nav
 {
   background: #290000;
   border-top: 4px solid #76C38F;
+}
+
+p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar
+{
+    padding: 48px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Georgia';
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #ffffff;
+    background: #76C38F;
+    border-radius: 10px;
+}
+
+.carousel-inner-1
+{
+    background: #290000;
+    width: 100%;
+    overflow: hidden;
+}
+.slide-img img
+{
+    width: 380px;
+    height: 380px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}
+.rounded-circle
+{
+    border: 24px solid #6B6B6B;
+}
+.slide-text 
+{
+    width: 360px;
+    padding: 100px 0 0 70px;
+}
+h5
+{
+    font-size: 46px;
+    font-family: 'Georgia';
+    color: #FFFFFF;
+}
+.slide-text p
+{
+    font-family: 'Georgia';
+    color: #979797;
+    font-size: 12px;
+}
+.btn-secondary
+{
+    color: #FFFFFF;
+    background: #76C38F;
+    border-color: #76C38F;
+}
+.btn
+{
+    border-radius: 10px;
+    font-family: 'Georgia';
+    font-size: 13px;
 }
   </style>
 
@@ -78,6 +153,39 @@ nav
           </div>
     </div>
 </nav>
+
+<!--Empieza el Slider-->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="slide-text">
+                    <h5>Cursus penati saccum nulla.<h5/>
+                    <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. 
+                    Urbanaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et 
+                    feugiat adipiscinia pellentum leo.<p/>
+                    <a class="waves-effect waves-light btn">Read More Here >></a>
+                    <!--<button type="button" class="btn btn-secondary">SUBMIT</button>-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="slide-img float-right">
+                    <img src="./asset/img/Imagen1.jpg" class="rounded-circle" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 </body>
 </html>
