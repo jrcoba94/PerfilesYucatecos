@@ -34,7 +34,7 @@
                     <div class="slider-text">
                     <p>Cursus penati saccum nulla.</p>
                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque in mauris et vestibulum. Fusce luctus, tellus in vestibulum pretium, diam elit sagittis est, porta semper quam elit at quam.</small>
-                    <button type="button">Read more here <span>&raquo;</span></button>
+                    <button type="button" style="height: auto;margin-top: 1rem;border: none;padding: 0.5rem;border-radius: 0.5rem;background: #76c38f;color: #000000;cursor: pointer;text-transform: uppercase;font-weight: bold;font-family: 'Georgia', sans-serif;">Read more here <span>&raquo;</span></button>
                     </div>
                     <div class="slider-box-img">
                         <div class="slider-img img-sepia"></div>
@@ -46,7 +46,7 @@
                     <div class="slider-text">
                     <p>Cursus penati saccum nulla.</p>
                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque in mauris et vestibulum. Fusce luctus, tellus in vestibulum pretium, diam elit sagittis est, porta semper quam elit at quam.</small>
-                    <button type="button">Read more here <span>&raquo;</span></button>
+                    <button type="button" style="height: auto;margin-top: 1rem;border: none;padding: 0.5rem;border-radius: 0.5rem;background: #76c38f;color: #000000;cursor: pointer;text-transform: uppercase;font-weight: bold;font-family: 'Georgia', sans-serif;">Read more here <span>&raquo;</span></button>
                     </div>
                     <div class="slider-box-img">
                         <div class="slider-img"></div>
@@ -58,7 +58,7 @@
                     <div class="slider-text">
                     <p>Cursus penati saccum nulla.</p>
                     <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque in mauris et vestibulum. Fusce luctus, tellus in vestibulum pretium, diam elit sagittis est, porta semper quam elit at quam.</small>
-                    <button typ="button">Read more here <span>&raquo;</span></button>
+                    <button typ="button" style="height: auto;margin-top: 1rem;border: none;padding: 0.5rem;border-radius: 0.5rem;background: #76c38f;color: #000000;cursor: pointer;text-transform: uppercase;font-weight: bold;font-family: 'Georgia', sans-serif;">Read more here <span>&raquo;</span></button>
                     </div>
                     <div class="slider-box-img">
                         <div class="slider-img img-grayscale"></div>
@@ -96,11 +96,11 @@
         <div class="latestwork">
             <div class="latestwork-btn">latest work</div>
             <div class="latestwork-box-img">
-                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen1.jpg" alt=""/></div>
-                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen2.jpg" alt="" /></div>
-                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen3.jpg" alt="" /></div>
-                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen1.jpg" alt="" /></div>
-                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen6.jpg" alt="" /></div>
+                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen1Edit.jpg" alt=""/></div>
+                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen2Edit.jpg" alt="" /></div>
+                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen3Edit.jpg" alt="" /></div>
+                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen1Edit.jpg" alt="" /></div>
+                <div class="latestwork-img"><img class="responsive-img" src="./img/imagen6Edit.jpg" alt="" /></div>
                 <div class="latestwork-img"><img class="responsive-img" src="./img/imagen5.jpg" alt="" /></div>
             </div>
         </div>

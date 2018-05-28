@@ -1,4 +1,4 @@
-<div class="footer-box">
+<div class="footer-box" style="height:500px;">
     <div class="footer">
         <div class="footer-inside-box">
             <h4>From The Blog</h4>
@@ -66,6 +66,9 @@
             </form>
         </div>
     </div>
+    <br />
+    <br />
+    <br />
     <div class="copyright">
         <small>Copyright
             <i class="fa fa-globe" aria-hidden="true"></i> 2017</small>
